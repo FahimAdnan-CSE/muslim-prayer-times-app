@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Main2Activity">
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="711dp"
+    tools:layout_editor_absoluteY="794dp"
+    tools:ignore="MissingConstraints"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFDFE"
+        android:minHeight="?attr/actionBarSize">
+
+
+        <ImageView
+            android:id="@+id/imageView48"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="175dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_home_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+        android:id="@+id/exit2"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginRight="129dp"
+        android:layout_marginBottom="8dp"
+        app:srcCompat="@drawable/exitwrite" />
+
+        <ImageView
+            android:id="@+id/reload"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="109dp"
+            android:layout_marginRight="109dp"
+            android:layout_marginBottom="8dp"
+            app:srcCompat="@drawable/ic_refresh" />
+
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#7e7e7e" />
+
+
+    <WebView
+        android:id="@+id/sitesWebView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+    </WebView>
+
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

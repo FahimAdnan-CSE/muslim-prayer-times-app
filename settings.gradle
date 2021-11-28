@@ -1,0 +1,2 @@
+rootProject.name='jsone_parse_2'
+include ':app'

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">jsone_parse_2</string>
+    <string name="Dialog">Do you want to exit?</string>
+    <string name="Title">Alert Message</string>
+</resources>
